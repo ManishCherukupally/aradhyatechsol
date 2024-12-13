@@ -1,6 +1,6 @@
 import React from 'react'
 import { Image, Text ,Affix,rem,Transition,Button} from '@mantine/core';
-import Image1 from '../assets/c3525bb3c87169f8002b6aa93925da68.jpeg';
+import Image1 from '../assets/avatar.jpg';
 import { useWindowScroll } from '@mantine/hooks';
 import { FaArrowUp } from "react-icons/fa6";
 
@@ -35,7 +35,7 @@ const Aboutus2 = () => {
      
       <div style={{ flex: 0.2, }}>
 
-      <Image src={Image1} alt="Name of the CEO" />
+      <Image src={Image1} alt="Name of the COO" />
       <Text fz='34px' align='center' fw={700} style={{wordSpacing:'0.001rem'}}>Name of the COO</Text>
       <Text fz='18px' fw={700} color='#A2A2A2' align='center'>Chief Operations Officer (COO)</Text>
       </div>
