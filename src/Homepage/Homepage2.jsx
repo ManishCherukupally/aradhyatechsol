@@ -25,7 +25,7 @@ const Homepage2 = () => {
 
        
         <div style={{ flex: 1 }}>
-          <Image src={Image1} alt="ATS Products" />
+          <Image src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWXG_r2oHdZERaiNByCyiNKPFsDEOJZwKaNA&s"} alt="ATS Products" />
         </div>
       </div>
     </div>
