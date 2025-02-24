@@ -9,12 +9,12 @@ import Footer1 from '../Footer/Footer1'
 const HomeMain = () => {
   return (
     <div>
-        
+
       <Homepage1 />
-    <Homepage2 />
-    <Homepage3 />
-    <Homepage4 />
-    <Footer1 />
+      <Homepage2 />
+      <Homepage3 />
+      <Homepage4 />
+      <Footer1 />
     </div>
   )
 }

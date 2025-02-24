@@ -1,21 +1,29 @@
 .nav-link {
-    display: block;
-    padding: 10px 15px;
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 400;
-    transition: color 0.3s ease, transform 0.3s ease;
+  color: #0082FF;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+
+.nav-link.active {
+  color: white;
+}
+
+
+.nav-link:hover {
+  color: white;
+}
+
+
+
+@keyframes slideInBottomToTop {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
   }
-  
-  .nav-link:hover {
-    color: #002f5a;
-    transform: scale(1.05);
-    font-size: '20px';
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
-  
-  .nav-link.active{
-    font-size: 30px;
-    font-weight: 900;
-  }
-  
+}

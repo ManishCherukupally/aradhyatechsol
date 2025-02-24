@@ -5,47 +5,30 @@ import { Link } from 'react-router-dom';
 
 const Footer1 = () => {
   return (
-    <div style={{ backgroundColor: '#002f5a', color: '#fff', padding: '20px 0' }}>
+    <div style={{ backgroundColor: '#002f5a', color: '#fff', padding: '20px 0', }}>
       <Container >
         <Grid>
-          
-          <Grid.Col md={5} sm={12}>
-            <Text fw={700} mb={9}>
+
+          <Grid.Col md={7} sm={12}>
+            <Text style={{ fontFamily: '"Marcellus", Sans-serif', }} fw={700} mb={9}>
               Contact info
             </Text>
-            <Text fz="md">Address: H.No.11-06-188/A, POCHAMMABAGH COLONY,</Text>
+            <Text style={{ fontfamily: '"Open Sans", Sans-serif', }} fz="md">Address: H.No.11-06-188/A, POCHAMMABAGH COLONY,</Text>
             <Text>SAROORNAGAR, HYDERABAD-500035.</Text>
-            <Text fz="md">Phone: +918008357293</Text>
-            <Text fz="md">Email: aaradhyatechsol1233@gmail.com</Text>
-          </Grid.Col>
-
-          
-          <Grid.Col md={3} sm={12}>
-            <Text fw={700} mb={10}>
-              Quick Links
+            <Text style={{ fontfamily: '"Open Sans", Sans-serif', }} fz="md">Phone: +918008357293</Text>
+            <Text style={{ fontfamily: '"Open Sans", Sans-serif', }} fz="md">Email: aaradhyatechsol1233@gmail.com</Text>
+            <Text fz="xs" style={{ fontfamily: '"Open Sans", Sans-serif', }}>
+              Designed and Developed by Automac Technologies
             </Text>
-            <ul style={{ listStyleType: 'none', padding: 0, margin: 0 ,paddingLeft:'1rem'}}>
-              <li>
-                <Link to="/" style={{ textDecoration: 'none', color: '#fff' }}>Home</Link>
-              </li>
-              <li>
-                <Link to="/service" style={{ textDecoration: 'none', color: '#fff' }}>Services</Link>
-              </li>
-              <li>
-                <Link to="/product" style={{ textDecoration: 'none', color: '#fff' }}>Product</Link>
-              </li>
-              <li>
-                <Link to="/aboutus" style={{ textDecoration: 'none', color: '#fff' }}>About Us</Link>
-              </li>
-              <li>
-                <Link to="/contactus" style={{ textDecoration: 'none', color: '#fff' }}>Contact Us</Link>
-              </li>
-            </ul>
+
           </Grid.Col>
 
-          
+
+
+
+
           <Grid.Col md={4} sm={12}>
-            <Text fw={700} mb={10}>
+            <Text style={{ fontFamily: '"Marcellus", Sans-serif', }} fw={700} mb={10}>
               Reach us through
             </Text>
             <Flex gap="md">
@@ -74,20 +57,16 @@ const Footer1 = () => {
                 <FaInstagram size={30} />
               </a>
             </Flex>
-           
-            
+
+
           </Grid.Col>
-          
-          
-        
-        </Grid>      
-        
+
+
+
+        </Grid>
+
       </Container>
-      <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '-5rem' }}>
-          <Text fz="xs"  style={{ marginTop:'3rem', marginRight:'10rem'}}>
-            Designed and Developed by AutoMac Technologies
-          </Text>
-        </div>
+
     </div>
   );
 };

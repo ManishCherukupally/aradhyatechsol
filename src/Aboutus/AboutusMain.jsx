@@ -6,12 +6,12 @@ import Footer1 from '../Footer/Footer1'
 
 const AboutusMain = () => {
   return (
-    <div style={{backgroundColor:'black'}}>
-        
+    <div style={{ backgroundColor: 'black' }}>
+
       <Aboutus />
-   <Aboutus1 />
-   <Aboutus2 />
-   <Footer1 />
+      <Aboutus1 />
+      <Aboutus2 />
+      <Footer1 />
     </div>
   )
 }
