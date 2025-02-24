@@ -60,16 +60,17 @@ const Aboutus2 = () => {
       <div
         style={{
           display: 'flex',
+         
           alignItems: 'center',
           justifyContent: 'center',
-          justifyContent: 'space-evenly',
+         
           gap: isMobile ? '2rem' : 'none',
           flexDirection: isMobile ? 'column' : 'row',
           animation: isMobile ? isVisible ? "slideInLeftToRight 3s ease-out" : "none" : isVisible ? "slideInLeftToRight 3s ease-out" : "none"
         }}
       >
         {/* CEO Section */}
-        <div style={{ flex: isMobile ? 0.4 : isTablet ? 0.4 : 0.2, textAlign: 'center', animation: isVisible ? "slideInBottomToTop 3s ease-out" : "none" }}>
+        <div style={{ flex: isMobile ? 0.4 : isTablet ? 0.4 : 0.2, justifyItems:'center',alignItems:'center', textAlign: 'center', animation: isVisible ? "slideInBottomToTop 3s ease-out" : "none" }}>
           <Image src={Image1} alt="Bandi Venkat Rao"
             width={isMobile ? '15rem' : 'none'}
           />
@@ -91,7 +92,7 @@ const Aboutus2 = () => {
         </div>
 
         {/* COO Section */}
-        <div style={{ flex: isMobile ? 0.4 : isTablet ? 0.4 : 0.2, textAlign: 'center', animation: isVisible ? "slideInBottomToTop 3s ease-out" : "none" }}>
+        <div style={{ flex: isMobile ? 0.4 : isTablet ? 0.4 : 0.2, justifyItems: 'center', alignItems: 'center', textAlign: 'center', animation: isVisible ? "slideInBottomToTop 3s ease-out" : "none" }}>
           <Image src={Image1} alt="Name of the COO"
             width={isMobile ? '15rem' : 'none'}
 
