@@ -62,8 +62,8 @@ const Aboutus2 = () => {
           display: 'flex',
 
           alignItems: 'center',
-          justifyContent: 'center',
-
+          justifyContent: isMobile? 'center': 'space-evenly',
+          
           gap: isMobile ? '2rem' : 'none',
           flexDirection: isMobile ? 'column' : 'row',
           animation: isMobile ? isVisible ? "slideInLeftToRight 3s ease-out" : "none" : isVisible ? "slideInLeftToRight 3s ease-out" : "none"
