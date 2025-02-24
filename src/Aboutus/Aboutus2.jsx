@@ -60,17 +60,17 @@ const Aboutus2 = () => {
       <div
         style={{
           display: 'flex',
-         
+
           alignItems: 'center',
           justifyContent: 'center',
-         
+
           gap: isMobile ? '2rem' : 'none',
           flexDirection: isMobile ? 'column' : 'row',
           animation: isMobile ? isVisible ? "slideInLeftToRight 3s ease-out" : "none" : isVisible ? "slideInLeftToRight 3s ease-out" : "none"
         }}
       >
         {/* CEO Section */}
-        <div style={{ flex: isMobile ? 0.4 : isTablet ? 0.4 : 0.2, justifyItems:'center',alignItems:'center', textAlign: 'center', animation: isVisible ? "slideInBottomToTop 3s ease-out" : "none" }}>
+        <div style={{ flex: isMobile ? 0.4 : isTablet ? 0.4 : 0.2, justifyItems: 'center', alignItems: 'center', textAlign: 'center', animation: isVisible ? "slideInBottomToTop 3s ease-out" : "none" }}>
           <Image src={Image1} alt="Bandi Venkat Rao"
             width={isMobile ? '15rem' : 'none'}
           />
@@ -80,6 +80,7 @@ const Aboutus2 = () => {
             style={{ wordSpacing: '0.001rem', fontFamily: '"Marcellus", Sans-serif' }}
           >
             Bandi Venkat Rao
+
           </Text>
           <Text
             fz={'18px'}
