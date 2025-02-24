@@ -82,14 +82,14 @@ const Homepage2 = () => {
             borderBottom: 'none',
             marginRight: '1rem',
             animation: isVisible ? 'slideInLeftToRight 2.5s ease-out' : 'none',
-            order: isMobile || isTablet ? 1 : 0, 
+            order: isMobile || isTablet ? 1 : 0,
           }}
         >
           <Text
             style={{
               fontSize: isMobile ? '32px' : '54px',
               fontWeight: 'bold',
-              lineHeight: isMobile ? '2.6rem' : '2.5rem',
+              lineHeight: isMobile ? '2.6rem' : isTablet ? '2.5rem' : 'none',
               fontFamily: '"Marcellus", Sans-serif',
             }}
           >
